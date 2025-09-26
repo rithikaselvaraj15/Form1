@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form test class -2</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Registration for Placement</legend>
+            <br>
+            <!--text-->
+            <lable for="full-name">NAME:</lable>
+            <input type="text" id="NAME:" name="full-name" required placeholder="Enter you name" maxlength="25">
+            <br> <br>
+             <lable for="name">Father Name:</lable>
+            <input type="text" name="full-name" required placeholder="Enter you father name" maxlength="25">
+            <br> <br>
+            <!--DATE-->
+            <label for="date">DATE OF BORN </label>
+            <input type="date" id="DATE OF BORN" NAME="date" required placeholder="Enter your date of birth">
+            <br> <br>
+            <!--NUMBER-->
+            <label for= "roll number"> Registration number</label>
+            <input type="number" id="Registration number" name="roll number" required
+            placeholder="Enter your UG roll number" maxlength="9" minlength="9" >
+            <br> <br>
+            <!--RADIO-->
+            <h4>Select the subject for the exam:</h4>
+            <input type="radio" id="English" name="subject"  value=" English">
+            <label for="subject"> English</label>
+            <br>
+             <input type="radio" id="Mathamatics" name="Mathamatics"value="Mathamatics">
+             <label for="subject">Mathamatics</label>
+             <br>
+                          <input type="radio" id="Science" name="Science"value="Science">
+             <label for="subject">Science</label>
+             <br><br>
+             <!--CHECHBOX-->
+             <h4>Give the information regading previous exam:</h4>
+             <lable for="validation">I attended SAT at 2021</lable>
+             <input type="checkbox" id="validation" name="validation" value="yes">
+             <br>
+             <lable for="validation1">I attended SAT at 2022</lable>
+             <input type="checkbox" id="validation1" name="validation1" value="yes">
+             <br>
+             <lable for="validation2">I attended SAT at 2023</lable>
+             <input type="checkbox" id="validation2" name="validation2" value="yes">
+             <br> <br>
+             <!--EMAIL-->
+             <label for="Email">EmailAddress </label>
+             <input type="email" id="Email" name="email address" required autocomplete="address-level2" placeholder="Enter your mail id">
+             <br> <br>
+             <!--PASSWORD-->
+             <label for="password">Password</label>
+             <input type="password" id="password" name="password" required maxlength="9" minlength="5">
+             <br> <br>
+             <!--tel-->
+             <label for="Mobile">Mobile number</label>
+             <input type="tel" id="tel" name="mobile" required maxlength="10" minlength="10">
+             <br> <br>
+             <!--file-->
+             <label for="file">UG documents</label>
+             <input type="file" id="Ug documents" name="file" required >
+             <br> <br>
+             <!--button-->
+             <input type="button" name=" sumit">
+             </fieldset>
+             </form>
+</body>
+</html>
